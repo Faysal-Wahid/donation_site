@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+
+/*Extra work: nav bar style*/
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Banner section style*/
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 669px;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading-p {
+    color: rgb(0, 214, 252);
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.banner-content {
+    padding: 10% 30%;
+
+}
+
+.donateButton {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+
+/*DonateToday section style*/
+.DonateToday {
+    height: 500px;
+}
+
+.heading-donateToday {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading-p-donateToday {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.ammountBox {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: rgb(243, 239, 239);
+    border-radius: 5px;
+}
+
+#ammountBox2 {
+    border: 2px solid salmon;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    color: rgb(248, 99, 82);
+    background-color: rgb(248, 225, 222);
+    border-radius: 5px;
+}
+
+.selectAmmount {
+    display: flex;
+}
+
+.otherAmmount {
+    margin: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/*Choose donate plan section style*/
+.selectPlan {
+    display: flex;
+
+}
+
+.plan1 {
+    background-color: rgb(216, 243, 161);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.plan2 {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.plan3 {
+    background-color: rgb(157, 243, 243);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/*Flood people content style*/
+.flood-people-content {
+    display: flex;
+}
+
+.flood-people-content-btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 10px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 50px;
+    margin: 100px;
+    text-align: left;
+}
+
+.half-width h1 {
+    font-size: 45px;
+}
+
+.half-width-img {
+    width: 50%;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.half-width-img img {
+    border-radius: 10px;
+}
+
+
+/*Get updated section*/
+.box {
+    padding: 80px;
+}
+
+.updatedBox {
+    background-color: aquamarine;
+    padding: 60px 700px;
+    border-radius: 5px;
+}
+
+input[type=email],
+select {
+    width: 68%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submitbtn {
+    padding: 11px 30px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+/*Footer style*/
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer h1 {
+    color: rgb(236, 163, 5);
+}
+
+footer small {
+    color: aliceblue;
+}
