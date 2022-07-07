@@ -28,7 +28,7 @@ nav ul li a {
 
 /*Banner section style*/
 .banner {
-    background-image: url(images/donation13.jpg);
+    background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 669px;
